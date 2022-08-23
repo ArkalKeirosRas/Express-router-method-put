@@ -22,6 +22,7 @@ programmingRoute.put('/:id',(req,res)=>{
 
 // had an error when exporting it in this other way "module.exports.programmingRoute = programmingRoute"
 // So better export it this way 
-// and we import it unstructured in app.js
+// and we import it in app.js structured 
+// or vice versa 
 
 module.exports = programmingRoute;
